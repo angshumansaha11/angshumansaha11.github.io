@@ -90,7 +90,7 @@ header .navbar ul li a:hover::before{
 }
 .home{
 	min-height: 100vh;
-	background-image: url("documents/background.jpg");
+	background-image: url("Documents/background.jpg");
 	background-size: cover;
 	background-position: center;
 	float: left;
@@ -634,7 +634,7 @@ transform-origin: left bottom;
 @media(max-width: 767px){
 
 .home{
-	background-image: url("documents/angshuman1.jpg");
+	background-image: url("Documents/angshuman1.jpg");
 	background-size: cover;
 	background-position: center;
 	float: left;	
@@ -677,7 +677,7 @@ transform-origin: left bottom;
 @media(max-width: 500px){
 
 .home{
-	background-image: url("documents/angshuman1.jpg");
+	background-image: url("Documents/angshuman1.jpg");
 	background-size: cover;
 	background-position: center;
 	float: left;	
