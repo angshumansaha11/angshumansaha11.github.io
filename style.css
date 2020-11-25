@@ -29,9 +29,9 @@ header{
 }
 header.sticky{
 	position: fixed;
-	background-color:rgb(207, 207, 207);
+	background-color:white;
     animation: header .5s ease;
-	opacity: .85;
+	
 
 }
 @keyframes header{
@@ -234,8 +234,8 @@ h2.title::before{
 	transition:all .5s ease;
 }
 .btn-bg:hover{
-border:1px solid tomato;
-color:tomato;
+border:2px solid #64df8d;
+color:#0eaa42;
 background-color:transparent;
 }
 
