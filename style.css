@@ -29,9 +29,10 @@ header{
 }
 header.sticky{
 	position: fixed;
-	background-color: #2b2b2b;
+	background-color:rgb(207, 207, 207);
     animation: header .5s ease;
-    opacity: .85;
+	opacity: .85;
+
 }
 @keyframes header{
 	0%{transform: translateY(-100%);opacity:0}
@@ -640,6 +641,7 @@ transform-origin: left bottom;
 	float: left;	
 	padding:0px 15px;
 	position: relative;
+	margin-top: 50px;
 }
 
 .home .home-text h3{
@@ -651,8 +653,13 @@ transform-origin: left bottom;
 }
 
 .about .about-content .img{
-	width: 100%;
+	clear: both;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
 }
+
 .about .about-content .description{
 	width: 100%;
 }
@@ -662,16 +669,13 @@ transform-origin: left bottom;
 .skills .skills-content .card{
 	width: 100%;
 }
-.portfolio .portfolio-content .card{
+.pro .pro-content .card{
 	width: 50%;
 }
-.team .team-content .card{
-	width: 100%;
-}
-.blog .blog-content .card{
-	width: 100%;
-}
 
+footer .footer-content .box{
+	width: 100%;
+}
 }
 
 @media(max-width: 500px){
@@ -685,13 +689,20 @@ transform-origin: left bottom;
 	position: relative;
 }
 	
+.about .about-content .img{
+	clear: both;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+}	
 .services .services-content .card{
 	width: 100%;
 }	
 .services .services-content .card .box h3{
 	min-height: auto;
 }
-.portfolio .portfolio-content .card{
+.pro .pro-content .card{
 	width:100%;
 }
 footer .footer-content .box{
