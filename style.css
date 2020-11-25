@@ -29,8 +29,9 @@ header{
 }
 header.sticky{
 	position: fixed;
-	background-color:white;
-    animation: header .5s ease;
+	background-color:rgb(180, 206, 223);
+	animation: header .5s ease;
+	opacity: .85;
 	
 
 }
