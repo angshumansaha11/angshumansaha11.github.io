@@ -383,7 +383,7 @@ background-color:transparent;
 
 .pro .pro-content .card{
 	float:left;
-	width: 33.33%;
+	width: 50%;
 	padding:15px;
 }
 
@@ -406,7 +406,7 @@ background-color:transparent;
 .pro .pro-content .card .box:hover::before{
 	width: 100%;
 }
-.pro .pro-content .card .box h3{
+.pro .pro-content .card .box h4{
 	margin:0;
 	padding:15px 0 5px;
 	color:#ffffff;
@@ -415,6 +415,7 @@ background-color:transparent;
 	letter-spacing:.5px;
 }
 .pro .pro-content .card .box h4{
+	text-align: center;
 	margin:0;
 	padding:5px 0px 25px;
 	color:#000000;
