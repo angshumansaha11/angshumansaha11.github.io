@@ -182,12 +182,12 @@ h2.title::before{
 	float: left;
 }
 
-.about .about-content .img{
+.about .about-content .pfimage{
 	float: left;
 	width: 35%;
 	padding:15px;
 }
-.about .about-content .img img{
+.about .about-content .pfimage img{
 	width: 100%;
 	border:10px solid #3c3c3c;
 }
@@ -315,7 +315,7 @@ background-color:transparent;
 	float: left;
 	width: 100%;
 	padding:80px 0px; 
-	background-color:#ebebeb;
+	background-color:#ffffff;
 }
 
 .skills .skills-content{
@@ -341,7 +341,7 @@ background-color:transparent;
 	height: 10px;
 	width: 100%;
 	border-radius:4px;
-	background-color: #ffffff;
+	background-color: #d1d1d1;
    position: relative;
 
 }
@@ -373,7 +373,7 @@ background-color:transparent;
 	float: left;
 	width: 100%;
 	padding:80px 0px; 
-	background-color:#ffffff;
+	background-color:#ebebeb;
 }
 
 .pro .pro-content{
@@ -388,7 +388,7 @@ background-color:transparent;
 }
 
 .pro .pro-content .card .box{
-	background-color:#b3b3b3;
+	background-color:#d6e2e7;
 	padding:15px;
 	position: relative;
 }
@@ -408,7 +408,7 @@ background-color:transparent;
 }
 .pro .pro-content .card .box h4{
 	margin:0;
-	padding:15px 0 5px;
+	padding:15px 10px;
 	color:#ffffff;
 	font-size:20px;
 	font-weight: 600;
@@ -417,11 +417,21 @@ background-color:transparent;
 .pro .pro-content .card .box h4{
 	text-align: center;
 	margin:0;
-	padding:5px 0px 25px;
+	padding:15px 25px;
 	color:#000000;
 	font-size:16px;
 	font-weight: 700;
-	text-transform: uppercase;
+	
+	letter-spacing:.5px;
+}
+
+.pro .pro-content .card .box h6{
+	text-align: center;
+	margin:0;
+	padding:15px 25px;
+	color:rgb(83, 83, 83);
+	font-size:12px;
+	font-weight: 700;
 	letter-spacing:.5px;
 }
 .pro .pro-content .card .box img{
@@ -438,7 +448,7 @@ background-color:transparent;
 	float: left;
 	width: 100%;
 	padding:80px 15px; 
-	background-color:#ebebeb;
+	background-color:#ffffff;
 }
 
 .contact .contact-content{
@@ -654,7 +664,7 @@ transform-origin: left bottom;
 	padding:0px 15px;
 }
 
-.about .about-content .img{
+.about .about-content .pfimage{
 	clear: both;
 	width: 50%;
 	margin-left: auto;
@@ -686,16 +696,15 @@ footer .footer-content .box{
 	background-image: url("Documents/angshuman1.jpg");
 	background-size: cover;
 	background-position: center;
-	float: left;	
+	float: none;	
 	padding:0px 15px;
 	position: relative;
 }
 	
-.about .about-content .img{
+.about .container .about-content .pfimage{
 	clear: both;
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 50%;
+	margin: 0 auto;
 	padding: 15px;
 }	
 .services .services-content .card{
